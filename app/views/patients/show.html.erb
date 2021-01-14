@@ -1,0 +1,7 @@
+<%= @patient.name %><br>
+
+<% @patient.appointments.each do |appointment| %>
+    <% i_doctor = @patient.doctors.find(appointment.doctor_id) %>
+    <%= i_doctor.name%> -
+    <%= appointment.appointment_datetime.strftime("%B %d, %Y at %k:%M") %><br>
+<% end %>

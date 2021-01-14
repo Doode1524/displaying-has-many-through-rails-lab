@@ -8,8 +8,8 @@ leonard = Doctor.create({name: "Leonard 'Bones' McCoy", department: "Internal Me
 phillip = Doctor.create({name: "Phillip Chandler", department: "Internal Medicine"})
 michaela = Doctor.create({name: "Michaela Quinn", department: "Internal Medicine"})
 
-homer = Patient.create({name: "Homer Simpson", age: 38})
 bart = Patient.create({name: "Bart Simpson", age: 10})
+homer = Patient.create({name: "Homer Simpson", age: 38})
 marge = Patient.create({name: "Marge Simpson", age: 36})
 lisa = Patient.create({name: "Lisa Simpson", age: 8})
 maggie = Patient.create({name: "Maggie Simpson", age: 1})
